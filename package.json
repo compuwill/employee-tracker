@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/compuwill/employee-tracker/issues"
   },
-  "homepage": "https://github.com/compuwill/employee-tracker#readme"
+  "homepage": "https://github.com/compuwill/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }

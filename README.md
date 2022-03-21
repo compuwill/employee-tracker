@@ -4,6 +4,8 @@
 ## Description
 
 A Node application that uses a mysql database to store, manage, and update employee information.
+![image](https://user-images.githubusercontent.com/22924230/159203020-a524876b-bedf-4957-ba95-7037a307dc41.png)
+
 
 ## Table of Contents
 

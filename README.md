@@ -14,12 +14,14 @@ A Node application that uses a mysql database to store, manage, and update emplo
 
 ## Installation
 
-To install, simply clone the repository and use `npm i` to install all of the necessary packages.
+To install, simply clone the repository and use `npm i` to install all of the necessary packages. Once that is complete run the db.sql file and the schema.sql file.
 
 ## Usage
 
-To use the application, run the server.js application.
+To use the application, run the server.js application and run through each option.
 
+The following 5 minute video demonstrates how to use the application:
+https://streamable.com/v3tqi7
 
 
 ## License

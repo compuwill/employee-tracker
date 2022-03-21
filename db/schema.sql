@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS department;
 
 CREATE TABLE department (
   id INTEGER AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30) NOT NULL
+  name VARCHAR(30) NOT NULL UNIQUE
 );
 
 CREATE TABLE role (
@@ -13,6 +13,7 @@ CREATE TABLE role (
   title VARCHAR(30) NOT NULL,
   salary decimal NOT NULL,
   department_id INTEGER,
+  CONSTRAINT c_title_department UNIQUE (title , department_id),
   CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE SET NULL
 );
 

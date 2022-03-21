@@ -19,7 +19,7 @@ VALUES
   ('Benefits Manager', 70000, 4),
   ('Director of Human Resources', 150000, 4),
   ('Safety', 50000, 5),
-  ('Safety Manager', 70000, 4);
+  ('Safety Manager', 70000, 5);
 
 -- insert the managers
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
